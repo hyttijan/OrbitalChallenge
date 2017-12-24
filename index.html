@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Orbital challenge</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="three.min.js"> </script>
+        <script src="priorityQueue.js"></script>
+        <script src="OrbitControls.js"></script>
+        <script src="javascript.js"></script>
+        <link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="screen" style="z-index:-1"></div>
+        <div id="info" style="z-index:1;position:absolute;top:0; left:0">
+        <h1 >Orbital challenge</h1>
+        <p>Draws the shortest route through satellites (if possible) between starting spot and ending spot. Dijkstra's algorithm is used to find the shortest route.<br> Unfortunately link is dead which generates the satellite locations, so we only have few hardcoded scenarios.</p>
+        <p id="loading">Loading...</p><form id="form"></form>
+        </div>
+    </body>
+</html>
+   
